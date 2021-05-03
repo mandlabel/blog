@@ -63,10 +63,10 @@ export const Login = () => {
 	              <input type="password" className="form-control rounded-left" placeholder="Password" required value={password} onChange={(e) => setPassword(e.target.value)}/>
 	            </div>
 	            <div className="form-group">
-	            	<button type="submit" className="form-control btn btn-primary rounded submit px-3" onClick={login}>Login</button>
+	            	<button type="submit" className="form-control btn btn-primary rounded submit px-2" onClick={login}>Login</button>
 	            </div>
               <div className="form-group">
-                <button type="submit" className="form-control btn btn-success rounded submit px-3" onClick={pushtoregister}>Sign Up</button>
+                <button type="submit" className="form-control btn btn-success rounded submit px-2" onClick={pushtoregister}>Sign Up</button>
 	            </div>
 	          </form>   
 	        </div>
